@@ -12,13 +12,13 @@ import org.junit.Test;
 public class AppTest {
 
 	@Test
-	public void testShoudBePassed() {
-		assertTrue(true);
+	public void testShouldBePassed() {
+		assertTrue(false);
 	}
 
 	@Test
 	public void testShouldBeFailed() {
-		assertTrue(false);
+		assertTrue(true);
 	}
 
 	@Ignore("Not implemented yet")
